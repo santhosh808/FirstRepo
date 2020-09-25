@@ -5,7 +5,7 @@ public class AddressBook {
 
     public AddressBook(){
         buddyInfos = new ArrayList<>();
-        //System.out.println("Address Book");
+        System.out.println("Address Book");
     }
 
     public void addBuddy(BuddyInfo buddy) {
