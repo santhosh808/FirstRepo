@@ -22,11 +22,14 @@ public class AddressBook {
     }
 
     public static void main(String[] args){
-        System.out.println("Address Book. This part was added online.");
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "613");
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(0);
+    }
+
+    public void newBranchMethod(){
+        System.out.println("Address Book. This part was added online. This part was added in new branch.");
     }
 
 
