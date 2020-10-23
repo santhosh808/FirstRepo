@@ -15,11 +15,20 @@ public class AddressBook {
         }
     }
 
-    public BuddyInfo removeBuddy(int index) {
-        if(index >= 0 && index < buddyInfos.size()){
+    public void removeBuddy(BuddyInfo buddy) {
+        /*if(index >= 0 && index < buddyInfos.size()){
             return buddyInfos.remove(index);
         }
-        return null;
+        return null;*/
+        /*for (BuddyInfo b : buddyInfos) {
+            if (b.equals(buddy)) {
+                System.out.println(b.getName() + " was removed.");
+                buddyInfos.remove(b);
+                return;
+
+            }
+        }*/
+        buddyInfos.remove(buddy);
     }
 
     public void newBranchMethod(){

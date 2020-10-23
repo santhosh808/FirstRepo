@@ -29,4 +29,15 @@ public class BuddyInfo {
     public String getNumber() {
         return number;
     }
+
+    public boolean equals(BuddyInfo buddy) {
+        if (toString().equals(buddy.toString())) {
+            return true;
+        }
+        return false;
+    }
+
+    public String toString() {
+        return "Name: " + name +", Address: " + address + ", Number: " + number;
+    }
 }
